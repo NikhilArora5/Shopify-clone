@@ -1265,11 +1265,15 @@ html {
   #menu{
     display:block;
   }
+
+  .change{
+    width: 60%;
+  }
 }
 
 @media screen and (max-width:800px) {
   .change{
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -1310,6 +1314,10 @@ html {
 .designed-by>a{
   text-decoration: none;
   color:#fff;
+}
+
+.rights{
+  font-size: 10px;
 }
 
 /* -------------------- */
@@ -1387,6 +1395,10 @@ html {
   .sm\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .sm\:ml-4 {
+    margin-left: 1rem;
   }
 
   .sm\:ml-\[50\%\] {
